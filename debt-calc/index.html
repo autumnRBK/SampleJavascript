@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Financial Tracker - Assignment 3</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<section class="wrapper">
+		<h1>Transaction Tracker</h1>
+		<form class="frm-transactions">
+			<fieldset>
+				<legend>Add Transaction</legend>
+				<div class="frm-group">
+					<input id="transactionDescription" class="frm-control" type="text" name="description" size="30" value ="" placeholder="description" />
+				</div>
+				<div class="frm-group">
+					<select id ="creditDebitSelector" class="frm-control" name="type">
+						<option value="">type</option>
+						<option value="debit">debit</option>
+						<option value="credit">credit</option>
+					</select>
+				</div>
+				<div class="frm-group">
+					<i class="edit fa fa-dollar"></i>
+					<input id ="cost" class="frm-control" type="number" name="currency" min="0" max="9999" step="0.01" size="4" placeholder="0.00" />
+				</div>
+				<div class="frm-group">
+					<input id="credidDebitAdd" class="frm-control" type="submit" value="add" />
+				</div>
+				<div class="error"><p id ="errors"></p></div>
+			</fieldset>
+		</form>
+		<h2>Transactions</h2>
+		<table class="transactions">
+			<thead>
+				<tr>
+					<td colspan="4" class="right">
+						Total debits: <span class="total debits" id ="TotalDebit">$0.00</span>
+						Total credits: <span class="total credits" id ="TotalCredit">$0.00</span>
+					</td>
+				</tr>
+				<tr>
+					<th>Description</th>
+					<th>Type</th>
+					<th class="amount">Amount</th>
+					<th class="tools">Tools</th>
+				</tr>
+			</thead>
+			<tbody id ="TableBody">		
+			
+			</tbody>
+		</table>
+	</section>
+	<script src="js/main.js"></script>
+</body>
+</html>
