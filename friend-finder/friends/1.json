@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "avatar": "jane_doe.jpg",
+    "email": "Janed@Email.com",
+    "hometown": "Nowhere, NWT",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam facere minima harum aperiam est mollitia excepturi eius eligendi iste quasi assumenda sed inventore ut necessitatibus, nihil quo corrupti, odio esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam facere minima harum aperiam est mollitia excepturi eius eligendi iste quasi assumenda sed inventore ut necessitatibus, nihil quo corrupti, odio esse."
+}
